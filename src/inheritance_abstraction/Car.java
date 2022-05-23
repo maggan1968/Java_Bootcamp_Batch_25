@@ -27,5 +27,7 @@ public abstract class Car {
                 ", color='" + color + '\'' +
                 ", price=" + price +
                 '}';
+
+        //  return String.format("Car{year=%d, make='%s', model='%s', color='%s', price=%f}", year, make, model, color, price);
     }
 }
