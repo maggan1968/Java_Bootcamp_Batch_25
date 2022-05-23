@@ -56,10 +56,10 @@ Java Boot Camp
 			  driver
 
 			@BeforeMethod  {
-			  open browser
-			  maximizeBrowser
-			  implicitwait
-			  nevigateToURL
+			  open the browser
+			  maximize the Browser
+			  use implicit wait
+			  navigate to URL
 			  }
 
 
@@ -69,17 +69,17 @@ Java Boot Camp
 
 	    TestClass3 extends TestBase
 
-    	...
+    	=================
 
-    	BasePage
-    		constructor(){
+    	BasePage class
+    		constructor(BasePage)(){
     			PageFactory.initElement(driver, this )
     		}
 
-    	pages extends BasePage:
-    	
+    	other pages extends BasePage:
+
     		@FindBy(xpath = "")
-    		WebEelement name;
+    		WebElement name;
 
 
 	CarTask
@@ -101,18 +101,18 @@ Java Boot Camp
 
 			Honda extends Car
 
-			Mercedes extends Car implements LucuryCar
+			Mercedes extends Car implements LuxuryCar
 
-			BMW extends Car implements LucuryCar
+			BMW extends Car implements LuxuryCar
 
-			Tesla extends Car implements LuXuryCar, ElectricCar
+			Tesla extends Car implements LuxuryCar, ElectricCar
 
-			Nio  extends Car implements LuXuryCar, ElectricCar
+			Nio  extends Car implements LuxuryCar, ElectricCar
 
 
 
 18. Is A relation VS Has A relation
-		
+
 		Is A relation: if the classes are in inheritance relation
 			class Car{
 
@@ -133,9 +133,9 @@ Java Boot Camp
 
 
 19. Method Overriding: giving different implementation to the method
-						
+
 						MUST happen in subclass
-						
+
 						returnType, methodName, Parameters MUST be same
 
 						Access modifier MUST be same or more visible
@@ -145,11 +145,11 @@ Java Boot Camp
 
 
 
-20. Final keyword: unchangable
-			
+20. Final keyword: unchangeable
+
 			variables: can not be reassigned
 
-			methods: cannot be overriden
+			methods: cannot be overridden
 
 			class: cannot be inherited
 
@@ -160,7 +160,7 @@ Java Boot Camp
 
 
 				 Abstract method: method without the body
-				 				  meant to be overriden (can not be final, private, static)
+				 				  meant to be overridden (can not be final, private, static)
 
 				2 ways:
 					1. abstract class: meant to be super class (can not be final)
