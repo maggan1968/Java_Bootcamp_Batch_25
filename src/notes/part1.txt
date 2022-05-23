@@ -24,9 +24,9 @@ Java Boot Camp
 		char, boolean
 
 2. Primitive Type Castings: Implicit vs Explicit
-		implicit casting: casting smaller type to larger
+		implicit casting: casting smaller type to larger done from compile
 
-		explicit casting: casting larger type to smaller type
+		explicit casting: casting larger type to smaller type have to do manual
 
 
 3. Wrapper class: the objects that represents the primitives
@@ -34,7 +34,7 @@ Java Boot Camp
 			Byte, Short, Integer, Long, Float, Double, Character, Boolean
 
 
-4. String: immutable version of char sequences
+4. String: immutable version of char sequences/  unchangeable
 			
 			"Java"
 			 0123
